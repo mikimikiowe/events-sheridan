@@ -1,10 +1,9 @@
 import express from 'express';
 import { readFileSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { join } from 'path';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// Vercel runs functions from the project root (backend/), so build paths from there
+const DATA_DIR = join(process.cwd(), 'api');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -80,7 +79,7 @@ function loadEvents() {
     for (const source of SOURCES) {
         let data;
         try {
-            data = JSON.parse(readFileSync(join(__dirname, source.file), 'utf-8'));
+            data = JSON.parse(readFileSync(join(DATA_DIR, source.file), 'utf-8'));
         } catch {
             continue; // file missing or mid-write
         }
@@ -199,14 +198,11 @@ function sendEvents(req, res, filters = {}) {
 
 // ---------- middleware ----------
 
-// Let a front-end running on another port (e.g. React on 5173) call this API
+// The front-end is hosted separately, so let it call this API from any origin
 app.use((req, res, next) => {
     res.set('Access-Control-Allow-Origin', '*');
     next();
 });
-
-// Serve the ../frontend folder (index.html, main.js) at http://localhost:3000/
-app.use(express.static(join(__dirname, '..', 'frontend')));
 
 
 // ---------- endpoints ----------
@@ -307,4 +303,9 @@ app.use('/api', (req, res) => {
     res.status(404).json({ error: 'Unknown endpoint. See /api for the list.' });
 });
 
-module.exports = app;
+// Run locally with `node api/server.js` from backend/; Vercel imports the app instead
+if (!process.env.VERCEL) {
+    app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
+}
+
+export default app;
