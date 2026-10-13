@@ -23,7 +23,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from backend.normalize_events import normalize_file
+from backend.pyfiles.normalize_events import normalize_file
 
 ORGANIZER_URL = "https://www.eventbrite.ca/o/edge-13162231152"
 OUTPUT_FILE = "edgeevents.json"

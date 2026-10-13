@@ -30,8 +30,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from backend.normalize_events import normalize_file
-from backend.scrape_edge import google_calendar_url, make_driver, to_12h
+from backend.pyfiles.normalize_events import normalize_file
+from backend.pyfiles.scrape_edge import google_calendar_url, make_driver, to_12h
 
 BASE_URL = "https://sheridancollege.campuslabs.ca"
 EVENTS_URL = f"{BASE_URL}/engage/events"

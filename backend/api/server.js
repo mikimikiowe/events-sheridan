@@ -307,8 +307,4 @@ app.use('/api', (req, res) => {
     res.status(404).json({ error: 'Unknown endpoint. See /api for the list.' });
 });
 
-
-app.listen(PORT, () => {
-    console.log(`Server is running on port http://localhost:${PORT}`);
-    console.log(`Endpoint list: http://localhost:${PORT}/api`);
-    });
+module.exports = app;
