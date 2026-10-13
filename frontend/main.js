@@ -36,7 +36,9 @@ const state = {
 async function fetchJson(path) {
     const response = await fetch(API_BASE + path);
     if (!response.ok) {
-        throw new Error(`${response.status} ${response.statusText}`);
+        // The API explains bad filters in { error: "..." }
+        const body = await response.json().catch(() => ({}));
+        throw new Error(body.error || `${response.status} ${response.statusText}`);
     }
     return response.json();
 }
@@ -55,9 +57,18 @@ function buildEventsUrl() {
 
 // ---------- dates ----------
 
+// Event dates are Sheridan (Toronto) dates, so "today" is worked out in Toronto
+// time too, whatever time zone the visitor's computer is in. Matches the backend.
+const TIME_ZONE = 'America/Toronto';
+const dateParts = new Intl.DateTimeFormat('en-US', {
+    timeZone: TIME_ZONE, year: 'numeric', month: '2-digit', day: '2-digit',
+});
+
 function localDateString(date) {
-    const pad = n => String(n).padStart(2, '0');
-    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+    const { year, month, day } = Object.fromEntries(
+        dateParts.formatToParts(date).map(part => [part.type, part.value])
+    );
+    return `${year}-${month}-${day}`;
 }
 
 // "2026-10-13" -> Date (noon, so time zones can't shift the day)
@@ -102,7 +113,7 @@ function timeRange(event) {
     const end = parse(match[2]);
     // Only show an end time for same-day events
     if (localDateString(start) !== localDateString(end)) return event.time;
-    const endText = end.toLocaleTimeString('en-CA', { hour: 'numeric', minute: '2-digit' })
+    const endText = end.toLocaleTimeString('en-CA', { hour: 'numeric', minute: '2-digit', timeZone: TIME_ZONE })
         .replace(/\s?a\.m\./i, ' AM').replace(/\s?p\.m\./i, ' PM');
     return `${event.time} – ${endText}`;
 }
@@ -296,7 +307,7 @@ async function loadEvents() {
             : '<p class="empty">No events match these filters. Try another campus, organizer or time.</p>';
     } catch (error) {
         $('count').textContent = '';
-        $('events-grid').innerHTML = `<p class="empty">Could not load events (${escapeHtml(error.message)}). Is the backend running? Start it with "node server.js" in the backend folder.</p>`;
+        $('events-grid').innerHTML = `<p class="empty">Could not load events (${escapeHtml(error.message)}). Please try again in a moment.</p>`;
     } finally {
         $('events-grid').removeAttribute('aria-busy');
     }
@@ -512,7 +523,12 @@ async function init() {
         for (const event of all.events) state.eventsById.set(event.id, event);
 
         const today = localDateString(new Date());
-        const upcoming = all.events.filter(e => e.start_date >= today);
+        // Every event runs from start_date to end_date, so anything that hasn't ended counts.
+        // Ones still to start come first; ones already running go after them.
+        const upcoming = [
+            ...all.events.filter(e => e.start_date >= today),
+            ...all.events.filter(e => e.start_date < today && e.end_date >= today),
+        ];
 
         state.weekEvents = week.events;
         renderHero(upcoming);
