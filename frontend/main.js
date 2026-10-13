@@ -1,7 +1,6 @@
-// Where the backend runs. When the backend serves this page (http://localhost:3000)
-// the API is on the same address, so no prefix is needed. When the page is opened
-// as a file or through VS Code Live Server (port 5500), point at the backend.
-const API_BASE = location.protocol === 'file:' || location.port === '5500' ? 'http://localhost:3000' : '';
+// Where the backend runs. It's hosted separately on Vercel, so every request
+// goes there. To use a local backend instead, change this to 'http://localhost:3000'.
+const API_BASE = 'https://events-sheridan-backend.vercel.app';
 
 // Short descriptions shown in the Organizers list
 const ORGANIZER_BLURBS = {
