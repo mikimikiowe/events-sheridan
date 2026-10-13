@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New at Sheridan</title>
+    <style>
+        :root {
+            --bg: #f5f6f8;
+            --card: #ffffff;
+            --text: #1d2330;
+            --muted: #5f6b7a;
+            --accent: #0b5cad;
+            --border: #e2e6eb;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+        header { padding: 24px 16px 8px; max-width: 1200px; margin: 0 auto; }
+        h1 { margin: 0 0 4px; font-size: 1.8rem; }
+        .subtitle { margin: 0; color: var(--muted); }
+
+        .filters {
+            max-width: 1200px; margin: 0 auto; padding: 12px 16px;
+            display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+        }
+        .views { display: flex; flex-wrap: wrap; gap: 6px; }
+        .views button {
+            border: 1px solid var(--border); background: var(--card); color: var(--text);
+            padding: 6px 12px; border-radius: 999px; cursor: pointer; font: inherit;
+        }
+        .views button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+        select, input[type="search"] {
+            padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px;
+            font: inherit; background: var(--card); color: var(--text);
+        }
+        input[type="search"] { flex: 1; min-width: 180px; }
+
+        #status { max-width: 1200px; margin: 0 auto; padding: 0 16px; color: var(--muted); }
+
+        #events {
+            max-width: 1200px; margin: 0 auto; padding: 16px;
+            display: grid; gap: 16px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        }
+        .card {
+            background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+            overflow: hidden; display: flex; flex-direction: column;
+        }
+        .card img { width: 100%; height: 160px; object-fit: cover; background: var(--border); }
+        .card-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+        .card-top { display: flex; gap: 12px; align-items: flex-start; }
+        .date-box {
+            text-align: center; min-width: 48px; border: 1px solid var(--border);
+            border-radius: 8px; padding: 4px 6px; line-height: 1.1;
+        }
+        .date-box .month { font-size: 0.75rem; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+        .date-box .day { font-size: 1.3rem; font-weight: 700; }
+        .card h2 { font-size: 1.05rem; margin: 0; }
+        .meta { margin: 0; color: var(--muted); font-size: 0.9rem; }
+        .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+        .chip { font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; background: var(--bg); border: 1px solid var(--border); }
+        .chip.source { background: var(--accent); border-color: var(--accent); color: #fff; }
+        .card a.more { margin-top: auto; color: var(--accent); font-weight: 600; text-decoration: none; }
+        .card a.more:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>What's New at Sheridan</h1>
+        <p class="subtitle">Events from SSU, Sheridan clubs, EDGE and Sheridan College in one place</p>
+    </header>
+
+    <section class="filters">
+        <div class="views" id="views">
+            <button data-view="all" class="active">All</button>
+            <button data-view="today">Today</button>
+            <button data-view="week">This week</button>
+            <button data-view="upcoming">Next 7 days</button>
+            <button data-view="month">This month</button>
+        </div>
+
+        <select id="source" aria-label="Source">
+            <option value="">All sources</option>
+        </select>
+
+        <select id="location" aria-label="Location">
+            <option value="">Any location</option>
+            <option value="hmc">HMC (Mississauga)</option>
+            <option value="davis">Davis (Brampton)</option>
+            <option value="trafalgar">Trafalgar (Oakville)</option>
+            <option value="online">Online</option>
+        </select>
+
+        <select id="time" aria-label="Time of day">
+            <option value="">Any time</option>
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select>
+
+        <input type="search" id="search" placeholder="Search events…" aria-label="Search events">
+    </section>
+
+    <p id="status">Loading events…</p>
+    <main id="events"></main>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+{
+  "source": "https://www.sheridancollege.ca/events",
+  "scraped_at": "2026-10-13T01:38:46.721834+00:00",
+  "count": 6,
+  "events": [
+    {
+      "title": "Navigating OSAP: Your Guide to Applying for Financial Aid",
+      "url": "https://www.sheridancollege.ca/events/2026/06/navigating-osap-fall",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/background-images/about-sheridan_background-header.jpg?rev=e7845ab8e82248a4bd1b2fe31edc7a11&extension=webp&w=1024&hash=0FD21340CBE65D4C82A988BDEF3CFA73",
+      "list_date_box": {
+        "month": "Jun",
+        "day": "16"
+      },
+      "excerpt": "Are you a domestic student at Sheridan looking to navigate the ins and outs of the Ontario Student Assistance Program (OSAP)? Join us for an informative webinar where we will guide you through the pro…",
+      "last_occurrence_ends_at": "2026-10-27T20:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-06-16",
+          "date_text": "Tuesday, June 16, 2026",
+          "time_12h": "3:00 PM",
+          "time_24h": "15:00"
+        },
+        {
+          "date": "2026-10-27",
+          "date_text": "Tuesday, October 27, 2026",
+          "time_12h": "3:00 PM",
+          "time_24h": "15:00"
+        }
+      ],
+      "address": {
+        "venue": "Online",
+        "lines": [
+          "Online"
+        ],
+        "map_url": null
+      },
+      "categories": [
+        "Online"
+      ],
+      "tags": [
+        "Online"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Navigating%20OSAP%3A%20Your%20Guide%20to%20Applying%20for%20Financial%20Aid&dates=20260616T190000Z/20261027T200000Z&location=Online",
+      "ics_url": null,
+      "description": "Are you a domestic student at Sheridan looking to navigate the ins and outs of the Ontario Student Assistance Program (OSAP)? Join us for an informative webinar where we will guide you through the process of applying for financial aid to support your postsecondary education.\nWhether you're a first-time applicant or looking to renew your OSAP funding, this webinar is designed to equip you with the knowledge and tools you need to navigate the financial aid process with confidence.\nJoin us and take the first step towards securing the financial support you need to pursue your educational goals!\nNote: We will be providing OSAP account password resets/OAN retrieval at the end of each session. If you require this service, please come prepared with your Social Insurance Number (SIN) number and to answer your OSAP verification questions.\nJune 16, 2026\n3–4 p.m.\nEnglish\nJune 23, 2026\n3–4 p.m.\nEnglish\nJune 30, 2026\n3–4 p.m.\nEnglish\nJuly 7, 2026\n3–4 p.m.\nEnglish\nJuly 9, 2026\n3–4 p.m.\nFrench\nJuly 14, 2026\n3–4 p.m.\nEnglish\nJuly 16, 2026\n3–4 p.m.\nFrench\nJuly 21, 2026\n3–4 p.m.\nEnglish\nJuly 23, 2026\n3–4 p.m.\nFrench\nJuly 28, 2026\n3–4 p.m.\nEnglish\nJuly 30, 2026\n3–4 p.m.\nFrench\nAugust 4, 2026\n3–4 p.m.\nEnglish\nAugust 6, 2026\n3–4 p.m.\nFrench\nAugust 11, 2026\n3–4 p.m.\nEnglish\nAugust 13, 2026\n3–4 p.m.\nFrench\nAugust 18, 2026\n3–4 p.m.\nEnglish\nAugust 25, 2026\n3–4 p.m.\nEnglish\nAugust 27, 2026\n3–4 p.m.\nFrench\nSeptember 1, 2026\n3–4 p.m.\nEnglish\nSeptember 15, 2026\n3–4 p.m.\nEnglish\nSeptember 22, 2026\n3–4 p.m.\nEnglish\nSeptember 29, 2026\n3–4 p.m.\nEnglish\nOctober 6, 2026\n3–4 p.m.\nEnglish\nOctober 13, 2026\n3–4 p.m.\nEnglish\nOctober 20, 2026\n3–4 p.m.\nEnglish\nOctober 27, 2026\n3–4 p.m.\nEnglish",
+      "is_online": true,
+      "month": "Jun",
+      "day": "16",
+      "time": "3:00 PM",
+      "venue": "Online"
+    },
+    {
+      "title": "Peel Postsecondary Pathways Exploration Event",
+      "url": "https://www.sheridancollege.ca/events/2026/10/peel-postsecondary-pathways-exploration-event",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/background-images/about-sheridan_background-header.jpg?rev=e7845ab8e82248a4bd1b2fe31edc7a11&extension=webp&w=1024&hash=0FD21340CBE65D4C82A988BDEF3CFA73",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "14"
+      },
+      "excerpt": "Explore your options after high school—all in one place. Grade 12 and 12+ students from across Peel Region and their families are invited to Sheridan College’s Davis Campus for the Peel Postsecondary …",
+      "last_occurrence_ends_at": "2026-10-15T00:30:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-14",
+          "date_text": "Wednesday, October 14, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Davis Campus",
+        "lines": [
+          "Davis Campus",
+          "7899 McLaughlin Road",
+          "Brampton"
+        ],
+        "map_url": "http://maps.google.com?q=Davis Campus, 7899 McLaughlin Road, Brampton"
+      },
+      "categories": [
+        "Admissions"
+      ],
+      "tags": [
+        "Davis Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Peel%20Postsecondary%20Pathways%20Exploration%20Event&dates=20261014T210000Z/20261015T003000Z&location=Davis%20Campus%2C%207899%20McLaughlin%20Road%2C%20Brampton",
+      "ics_url": null,
+      "description": "Explore your options after high school—all in one place. Grade 12 and 12+ students from across Peel Region and their families are invited to Sheridan College’s Davis Campus for the Peel Postsecondary Exploration Event.\nConnect with representatives from a range of institutions and organizations, ask questions and learn more about:\nApprenticeship and skilled trades\nCollege\nUniversity\nCommunity and other postsecondary pathways\nEmployment and work-based pathways\nWhether you’re comparing several pathways or looking for a clearer sense of what comes next, this event can help you gather useful information and make a more informed decision.\nRegistration is required, and capacity is limited. To help ensure the broadest possible access for PDSB families, please register only one parent or guardian and their Grade 12 or 12+ student(s) for one block.\nSpaces are limited, so reserve your spot as soon as possible.\nDate: Oct 14, 2026 Time: 5:00 p.m. – 8.30 p.m. Location: Davis Campus, 7899 McLaughlin Road, Brampton\nThe pathways fair will take place in the Student center (DEN/SSU). Parking for the event will be available in Lot 4,5 and 6. View campus map .\nNote : Guests are welcome to arrive at any time between 5:00 p.m. and 8:30 p.m.\nThe following institutions and organizations will be represented at the event. Exhibitors will continue to be announced – please stay tuned to this page for updates.\nAlgonquin College\nBoréal\nBrampton Fire & Emergency Services\nBrock University\nCarleton University\nCentennial College\nCentre for Skills Development\nConfederation College\nConestoga College\nDiscover Year\nDurham College\nEikonic Academy\nFanshawe College\nFleming College\nGeorge Brown Polytechnic\nGeorgian College\nHumber Polytechnic\nHuron University\nKing’s at Western University\nLakehead University\nLoyalist College\nMcMaster University\nMohawk College\nNiagara College\nOCAD University\nOntario Tech University\nONTransfer by ONCAT\nPaladin Security\nSault College\nSeneca Polytechnic\nSt. Clair College\nSt. Jerome’s University (University of Waterloo)\nThe Michener Institute of Education at UHN\nToronto Metropolitan University\nUniversity of Guelph\nUniversity of Guelph-Humber\nUniversity of Niagara Falls Canada\nUniversity of Ottawa\nUniversity of Toronto\nUniversity of Waterloo\nUniversity of Windsor\nWestern University\nWilfrid Laurier University\nYork University",
+      "is_online": false,
+      "month": "Oct",
+      "day": "14",
+      "time": "5:00 PM",
+      "venue": "Davis Campus"
+    },
+    {
+      "title": "TD Insurance Webinar: Essential Steps to Start Investing",
+      "url": "https://www.sheridancollege.ca/events/2026/11/td-essential-steps",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/11/td-webinars/steps-to-investing-720x300.jpg?w=100%25&rev=4ea0812607e944e483c2cce16f317f7e&hash=8C2A3674666174F185771E9FBE785C37",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "6"
+      },
+      "excerpt": "Date : Nov. 6, 2026 Time : 12:00 p.m. Location : Online\nSetting up your financial future can be overwhelming. Where do you start? What’s important?\nJoin us in learning Essential Steps to Start Investi…",
+      "last_occurrence_ends_at": "2026-11-06T19:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-06",
+          "date_text": "Friday, November 6, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Online",
+        "lines": [
+          "Online"
+        ],
+        "map_url": null
+      },
+      "categories": [
+        "Alumni",
+        "Online"
+      ],
+      "tags": [
+        "Online"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=TD%20Insurance%20Webinar%3A%20Essential%20Steps%20to%20Start%20Investing&dates=20261106T170000Z/20261106T190000Z&location=Online",
+      "ics_url": null,
+      "description": "Date : Nov. 6, 2026 Time : 12:00 p.m. Location : Online\nSetting up your financial future can be overwhelming. Where do you start? What’s important?\nJoin us in learning Essential Steps to Start Investing! In this workshop we’re going to cover what you need to know and the steps to follow to take hold of your financial future.\nBy the end of the session you’ll know:\nHow your money grows\nHow much to invest\nHow to find the right investment mix for your goals\nHow to make every last dollar work for you\nRegister now",
+      "is_online": true,
+      "month": "Nov",
+      "day": "6",
+      "time": "12:00 PM",
+      "venue": "Online"
+    },
+    {
+      "title": "Fall Open House events: November 7 (Brampton, Oakville) & November 12 (Mississauga)",
+      "url": "https://www.sheridancollege.ca/admissions/visit-sheridan/open-house",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/admissions/visit-sheridan/trafalgar_entrance.jpg?rev=3bc26096715e4bf7b38d9a1d862cceb7&extension=webp",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "7"
+      },
+      "excerpt": "Join us in November for one of our Fall Open House events. Tour the campus and learn more about our programs and life at Sheridan.",
+      "last_occurrence_ends_at": "2026-11-12T19:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "date_text": "Saturday, November 7, 2026",
+          "time_12h": "10:00 AM",
+          "time_24h": "10:00"
+        },
+        {
+          "date": "2026-11-12",
+          "date_text": "Thursday, November 12, 2026",
+          "time_12h": "10:00 AM",
+          "time_24h": "10:00"
+        }
+      ],
+      "address": {
+        "venue": "Davis Campus, Trafalgar Campus, Hazel McCallion Campus",
+        "lines": [
+          "Davis Campus",
+          "Trafalgar Campus",
+          "Hazel McCallion Campus"
+        ],
+        "map_url": "http://maps.google.com?q=Davis Campus, Trafalgar Campus, Hazel McCallion Campus"
+      },
+      "categories": [],
+      "tags": [
+        "Davis Campus",
+        "Trafalgar Campus",
+        "Hazel McCallion Campus"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Fall%20Open%20House%20events%3A%20November%207%20%28Brampton%2C%20Oakville%29%20%26%20November%2012%20%28Mississauga%29&dates=20261107T150000Z/20261112T190000Z&location=Davis%20Campus%2C%20Trafalgar%20Campus%2C%20Hazel%20McCallion%20Campus",
+      "ics_url": null,
+      "description": "Join us in November for one of our Fall Open House events. Tour the campus and learn more about our programs and life at Sheridan.",
+      "is_online": false,
+      "month": "Nov",
+      "day": "7",
+      "time": "10:00 AM",
+      "venue": "Davis Campus, Trafalgar Campus, Hazel McCallion Campus"
+    },
+    {
+      "title": "TD Insurance Webinar: Travel Insurance 101",
+      "url": "https://www.sheridancollege.ca/events/2026/11/td-travel-insurance-101",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/11/td-webinars/travel-insurance-101-720x300.jpg?w=100%25&rev=9149474cc4034d6f937a0fc5a017014d&extension=webp&hash=8B36086A5C07EA7E8524FA0461F5293E",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "10"
+      },
+      "excerpt": "Date : Nov. 10, 2026 Time : 12:00 p.m. Location : Online\nLearn how to better protect yourself and your loved ones while travelling.\nJoin us and hear from TD Insurance on common misconceptions, coverag…",
+      "last_occurrence_ends_at": "2026-11-10T19:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-10",
+          "date_text": "Tuesday, November 10, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Online",
+        "lines": [
+          "Online"
+        ],
+        "map_url": null
+      },
+      "categories": [
+        "Alumni",
+        "Online"
+      ],
+      "tags": [
+        "Online"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=TD%20Insurance%20Webinar%3A%20Travel%20Insurance%20101&dates=20261110T170000Z/20261110T190000Z&location=Online",
+      "ics_url": null,
+      "description": "Date : Nov. 10, 2026 Time : 12:00 p.m. Location : Online\nLearn how to better protect yourself and your loved ones while travelling.\nJoin us and hear from TD Insurance on common misconceptions, coverage types, and coverage options.\nThis free workshop gives participants the knowledge and confidence to navigate Travel Insurance options.\nRegister Now",
+      "is_online": true,
+      "month": "Nov",
+      "day": "10",
+      "time": "12:00 PM",
+      "venue": "Online"
+    },
+    {
+      "title": "TD Insurance Webinar: Learn to invest with stocks",
+      "url": "https://www.sheridancollege.ca/events/2026/11/learn-to-invest",
+      "image_url": "https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/events/2026/08/insurance-webinar/learn-to-invest-with-stocks-1200x768.jpg?w=100%25&rev=943e7289abc94239bb3f5006344ac825&extension=webp&hash=D10372A2EF869DF4F79F720D212530D1",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "20"
+      },
+      "excerpt": "Date: Friday, November 20 Time: 12:00 PM Location: Virtual\nJoin us to learn how to start your stock investing journey! This beginner-friendly workshop is your starting point for stock investing. You’l…",
+      "last_occurrence_ends_at": "2026-11-20T19:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-20",
+          "date_text": "Friday, November 20, 2026",
+          "time_12h": "12:00 PM",
+          "time_24h": "12:00"
+        }
+      ],
+      "address": {
+        "venue": "Online",
+        "lines": [
+          "Online"
+        ],
+        "map_url": null
+      },
+      "categories": [
+        "Alumni",
+        "Online"
+      ],
+      "tags": [
+        "Online"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=TD%20Insurance%20Webinar%3A%20Learn%20to%20invest%20with%20stocks&dates=20261120T170000Z/20261120T190000Z&location=Online",
+      "ics_url": null,
+      "description": "Date: Friday, November 20 Time: 12:00 PM Location: Virtual\nJoin us to learn how to start your stock investing journey! This beginner-friendly workshop is your starting point for stock investing. You’ll learn what stocks are, why they’re essential for long-term wealth, and how to match them to your goals and risk tolerance. We’ll cover stock types, potential returns, and market sectors, while also exploring how trading in a TFSA, RRSP, or non-registered account impacts taxation. Finally, you’ll gain practical tips on structuring your portfolio and finding the right balance of stocks to build confidence in your investing journey.\nRegister Now",
+      "is_online": true,
+      "month": "Nov",
+      "day": "20",
+      "time": "12:00 PM",
+      "venue": "Online"
+    }
+  ]
+}

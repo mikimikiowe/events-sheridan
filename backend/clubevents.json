@@ -1,0 +1,496 @@
+{
+  "source": "https://sheridancollege.campuslabs.ca/engage/events",
+  "scraped_at": "2026-10-13T01:21:17.621460+00:00",
+  "count": 10,
+  "events": [
+    {
+      "title": "The Annual Marketing Mixer",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/334680",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/ef8dcfc1-c33e-440f-9af1-fdd95fc18a21c87fcc93-6626-48f0-8499-c8970e937c84.png",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "14"
+      },
+      "excerpt": "Once a year. One night. A look at what comes after graduation.\nJoin Sheridan Marketing Society for The Annual Marketing Mixer … a night to hear what life in marketing actually looks like beyond the cl…",
+      "last_occurrence_ends_at": "2026-10-15T00:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-14",
+          "date_text": "Wednesday, October 14, 2026",
+          "time_12h": "6:00 PM",
+          "time_24h": "18:00"
+        }
+      ],
+      "address": {
+        "venue": "Sheridan College",
+        "lines": [
+          "Sheridan College",
+          "4180 Duke of York Blvd, Mississauga, ON L5B 0H7"
+        ],
+        "map_url": "http://maps.google.com?q=4180 Duke of York Blvd, Mississauga, ON L5B 0H7"
+      },
+      "categories": [
+        "Group Business"
+      ],
+      "tags": [
+        "Sheridan Marketing Society (HMC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Annual%20Marketing%20Mixer&dates=20261014T220000Z/20261015T000000Z&location=Sheridan%20College%2C%204180%20Duke%20of%20York%20Blvd%2C%20Mississauga%2C%20ON%20L5B%200H7",
+      "ics_url": null,
+      "description": "Once a year. One night. A look at what comes after graduation.\nJoin Sheridan Marketing Society for The Annual Marketing Mixer … a night to hear what life in marketing actually looks like beyond the classroom.\nWe’ll be talking about starting your marketing career, networking, work-life balance, creating your own opportunities, and everything in between.\nMarketing Career Reality Check Hear from marketing professionals and alumni about their experiences, lessons, and what they wish they knew when they were starting out.\nConnect & Network Meet alumni, industry professionals, and fellow marketing students from different areas of the field.\n☕ Refreshments provided\n📅 October 14, 2026, 6:00-8:00 PM, Room A145, HMC Campus 📍 Sheridan College\nWhether you’re just starting your marketing degree or already thinking about what comes next, this is a night to meet people, ask questions, and get a real look at what’s ahead.\nThe conversation starts here.",
+      "engage_id": "334680",
+      "organizations": [
+        "Sheridan Marketing Society (HMC)"
+      ],
+      "rsvp_total": 2,
+      "month": "Oct",
+      "day": "14",
+      "time": "6:00 PM",
+      "venue": "Sheridan College"
+    },
+    {
+      "title": "mixtape mixer",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335320",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/artsandmusic.jpg",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "15"
+      },
+      "excerpt": "Join the Friendzone for an evening of sharing music meet people who like the same musicians as you and share your favorite songs, there could be dancing and karaoke in the cards everyone is welcome.",
+      "last_occurrence_ends_at": "2026-10-15T23:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-15",
+          "date_text": "Thursday, October 15, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "HMC Clubs room C202",
+        "lines": [
+          "HMC Clubs room C202",
+          "Duke of York blvd, Mississauga , on"
+        ],
+        "map_url": "http://maps.google.com?q=Duke of York blvd, Mississauga , on"
+      },
+      "categories": [
+        "Social",
+        "Arts"
+      ],
+      "tags": [
+        "Free Food",
+        "The Friend Zone (HMC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=mixtape%20mixer&dates=20261015T210000Z/20261015T230000Z&location=HMC%20Clubs%20room%20C202%2C%20Duke%20of%20York%20blvd%2C%20Mississauga%20%2C%20on",
+      "ics_url": null,
+      "description": "Join the Friendzone for an evening of sharing music meet people who like the same musicians as you and share your favorite songs, there could be dancing and karaoke in the cards everyone is welcome.",
+      "engage_id": "335320",
+      "organizations": [
+        "The Friend Zone (HMC)"
+      ],
+      "rsvp_total": 2,
+      "month": "Oct",
+      "day": "15",
+      "time": "5:00 PM",
+      "venue": "HMC Clubs room C202"
+    },
+    {
+      "title": "Sip & Study",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335319",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/social.jpg",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "15"
+      },
+      "excerpt": "This will be a relaxed, cozy study event where we bring people together in a comfortable space with ambient lighting, faux candles, a fireplace setup, and soft jazz playing in the background. The goal…",
+      "last_occurrence_ends_at": "2026-10-16T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-15",
+          "date_text": "Thursday, October 15, 2026",
+          "time_12h": "5:00 PM",
+          "time_24h": "17:00"
+        }
+      ],
+      "address": {
+        "venue": "Sheridan College Trafalgar Campus",
+        "lines": [
+          "Sheridan College Trafalgar Campus",
+          "1430 Trafalgar Road"
+        ],
+        "map_url": "http://maps.google.com?q=1430 Trafalgar Road"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Free Food",
+        "Free Stuff",
+        "Sheridan Anime Club (All Campuses)",
+        "Tea & Garden Club (TRC)",
+        "Sheridan TechBiz Society (Trafalgar)",
+        "Launchpad (HMC)",
+        "Maker Lounge (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Sip%20%26%20Study&dates=20261015T210000Z/20261016T020000Z&location=Sheridan%20College%20Trafalgar%20Campus%2C%201430%20Trafalgar%20Road",
+      "ics_url": null,
+      "description": "This will be a relaxed, cozy study event where we bring people together in a comfortable space with ambient lighting, faux candles, a fireplace setup, and soft jazz playing in the background. The goal is to create a calm, café-inspired atmosphere where everyone can focus and study. in room 219 and 223",
+      "engage_id": "335319",
+      "organizations": [
+        "Sheridan Anime Club (All Campuses)",
+        "Tea & Garden Club (TRC)",
+        "Sheridan TechBiz Society (Trafalgar)",
+        "Launchpad (HMC)",
+        "Maker Lounge (Trafalgar)"
+      ],
+      "rsvp_total": 7,
+      "month": "Oct",
+      "day": "15",
+      "time": "5:00 PM",
+      "venue": "Sheridan College Trafalgar Campus"
+    },
+    {
+      "title": "Anijam Screening",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/334720",
+      "image_url": "https://static.campuslabsengage.com/discovery/images/events/artsandmusic.jpg",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "19"
+      },
+      "excerpt": "Screening the Anijam's for the 2028, 2029, and 2030 cohorts of the Bachelor of Animation program, as well as screening previous year's Anijam's!",
+      "last_occurrence_ends_at": "2026-10-20T00:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-19",
+          "date_text": "Monday, October 19, 2026",
+          "time_12h": "6:00 PM",
+          "time_24h": "18:00"
+        }
+      ],
+      "address": {
+        "venue": "Marquee @ Sheridan",
+        "lines": [
+          "Marquee @ Sheridan",
+          "1430 Trafalgar Road, Oakville"
+        ],
+        "map_url": "http://maps.google.com?q=1430 Trafalgar Road, Oakville"
+      },
+      "categories": [
+        "Cultural",
+        "Arts"
+      ],
+      "tags": [
+        "Animation Student Council (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Anijam%20Screening&dates=20261019T220000Z/20261020T000000Z&location=Marquee%20%40%20Sheridan%2C%201430%20Trafalgar%20Road%2C%20Oakville",
+      "ics_url": null,
+      "description": "Screening the Anijam's for the 2028, 2029, and 2030 cohorts of the Bachelor of Animation program, as well as screening previous year's Anijam's!",
+      "engage_id": "334720",
+      "organizations": [
+        "Animation Student Council (Trafalgar)"
+      ],
+      "rsvp_total": null,
+      "month": "Oct",
+      "day": "19",
+      "time": "6:00 PM",
+      "venue": "Marquee @ Sheridan"
+    },
+    {
+      "title": "Movie Night! (Prince of Egypt)",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335165",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/6625ed10-a8c0-4f9c-8c36-2f0406eef7636c01f335-3774-4136-a9b5-0c52ae164287.png",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "20"
+      },
+      "excerpt": "Join us for a fun and relaxing movie night! We'll be watching Prince of Egypt, and there'll be lots of snacks! We'll be in S235, on Tuesday, October 20th at 7:00pm. Hope to see you there!",
+      "last_occurrence_ends_at": "2026-10-21T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-20",
+          "date_text": "Tuesday, October 20, 2026",
+          "time_12h": "6:00 PM",
+          "time_24h": "18:00"
+        }
+      ],
+      "address": {
+        "venue": "S235 Movie Room",
+        "lines": [
+          "S235 Movie Room"
+        ],
+        "map_url": "http://maps.google.com?q=S235 Movie Room"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Sheridan Christian Fellowship (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Movie%20Night%21%20%28Prince%20of%20Egypt%29&dates=20261020T220000Z/20261021T020000Z&location=S235%20Movie%20Room",
+      "ics_url": null,
+      "description": "Join us for a fun and relaxing movie night! We'll be watching Prince of Egypt, and there'll be lots of snacks! We'll be in S235, on Tuesday, October 20th at 7:00pm. Hope to see you there!",
+      "engage_id": "335165",
+      "organizations": [
+        "Sheridan Christian Fellowship (Trafalgar)"
+      ],
+      "rsvp_total": 2,
+      "month": "Oct",
+      "day": "20",
+      "time": "6:00 PM",
+      "venue": "S235 Movie Room"
+    },
+    {
+      "title": "Spooktacular Halloween Event",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335511",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/fa0efde6-f4c7-4c2a-a645-0fa7eb3727a060bf80e9-6f70-4f75-9625-ad939c204eb7.png",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "23"
+      },
+      "excerpt": "Whether you join us for the Karaoke, Halloween games or just stopping by for free food, we welcome you!\nCome in your best Halloween costume to win some prizes!\nEveryone is welcome!",
+      "last_occurrence_ends_at": "2026-10-24T01:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-23",
+          "date_text": "Friday, October 23, 2026",
+          "time_12h": "6:00 PM",
+          "time_24h": "18:00"
+        }
+      ],
+      "address": {
+        "venue": "Trafalgar G101",
+        "lines": [
+          "Trafalgar G101",
+          "1430 Trafalgar Rd, Oakville, ON L6H 2L1, Oakville, Ontario"
+        ],
+        "map_url": "http://maps.google.com?q=1430 Trafalgar Rd, Oakville, ON L6H 2L1, Oakville, Ontario"
+      },
+      "categories": [
+        "Cultural",
+        "Social"
+      ],
+      "tags": [
+        "Free Food",
+        "Free Stuff",
+        "Sheridan Filipino Student Association (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Spooktacular%20Halloween%20Event&dates=20261023T220000Z/20261024T010000Z&location=Trafalgar%20G101%2C%201430%20Trafalgar%20Rd%2C%20Oakville%2C%20ON%20L6H%202L1%2C%20Oakville%2C%20Ontario",
+      "ics_url": null,
+      "description": "Whether you join us for the Karaoke, Halloween games or just stopping by for free food, we welcome you!\nCome in your best Halloween costume to win some prizes!\nEveryone is welcome!",
+      "engage_id": "335511",
+      "organizations": [
+        "Sheridan Filipino Student Association (Trafalgar)"
+      ],
+      "rsvp_total": 3,
+      "month": "Oct",
+      "day": "23",
+      "time": "6:00 PM",
+      "venue": "Trafalgar G101"
+    },
+    {
+      "title": "Social Battery 2: Tech Networking Party!",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335312",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/d61ba82b-7676-49ba-9f77-cef792407de8cb33eeec-3e14-4223-a800-498b072f7c73.png",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "23"
+      },
+      "excerpt": "Curious about tech clubs or just want to relax after midterms? Why not both?\nWe’re kicking off the return of our tech club festival! You can connect with Sheridan's top tech clubs, partake in fun game…",
+      "last_occurrence_ends_at": "2026-10-24T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-23",
+          "date_text": "Friday, October 23, 2026",
+          "time_12h": "7:00 PM",
+          "time_24h": "19:00"
+        }
+      ],
+      "address": {
+        "venue": "The Marquee",
+        "lines": [
+          "The Marquee",
+          "1430 Trafalgar Rd, Oakville, Ontario"
+        ],
+        "map_url": "http://maps.google.com?q=1430 Trafalgar Rd, Oakville, Ontario"
+      },
+      "categories": [
+        "Social"
+      ],
+      "tags": [
+        "Credit",
+        "Free Food",
+        "Free Stuff",
+        "Sheridan Computer Science Club (Trafalgar)",
+        "Information Security Sessions (Trafalgar)",
+        "Google Developer Group (All Campuses)",
+        "Sheridan TechBiz Society (Trafalgar)",
+        "Women in Business and Technology (TRC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Social%20Battery%202%3A%20Tech%20Networking%20Party%21&dates=20261023T230000Z/20261024T020000Z&location=The%20Marquee%2C%201430%20Trafalgar%20Rd%2C%20Oakville%2C%20Ontario",
+      "ics_url": null,
+      "description": "Curious about tech clubs or just want to relax after midterms? Why not both?\nWe’re kicking off the return of our tech club festival! You can connect with Sheridan's top tech clubs, partake in fun games and activities at their booths, make new friends, and enjoy free food and drinks!\nLast year's event was phenomenal, and we're looking to make it even more fun this time!\nRSVP on the Luma below! It's open for all students on Friday, October 23rd @ 7:00 - 10:00 PM at the Marquee!\n🔗 Social Battery RSVP",
+      "engage_id": "335312",
+      "organizations": [
+        "Sheridan Computer Science Club (Trafalgar)",
+        "Information Security Sessions (Trafalgar)",
+        "Google Developer Group (All Campuses)",
+        "Sheridan TechBiz Society (Trafalgar)",
+        "Women in Business and Technology (TRC)"
+      ],
+      "rsvp_total": 6,
+      "month": "Oct",
+      "day": "23",
+      "time": "7:00 PM",
+      "venue": "The Marquee"
+    },
+    {
+      "title": "Halloween Design Challenge",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/333451",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/833ed005-4321-4408-9d3a-d714526be70f40568320-5141-4529-839a-d5addd71f611.png",
+      "list_date_box": {
+        "month": "Oct",
+        "day": "1"
+      },
+      "excerpt": "Hello Pixels! We’re back again with a Halloween-themed design challenge. From October 1st to October 31st @ 11:59pm, you have the opportunity to create your own design based off of our challenge promp…",
+      "last_occurrence_ends_at": "2026-10-31T04:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-10-01",
+          "date_text": "Thursday, October 1, 2026",
+          "time_12h": "12:00 AM",
+          "time_24h": "00:00"
+        }
+      ],
+      "address": {
+        "venue": "Sheridan College (Trafalgar Campus)",
+        "lines": [
+          "Sheridan College (Trafalgar Campus)",
+          "1430 Trafalgar Rd, Oakville, ON L6H 2L1, Oakville, ON"
+        ],
+        "map_url": "http://maps.google.com?q=1430 Trafalgar Rd, Oakville, ON L6H 2L1, Oakville, ON"
+      },
+      "categories": [
+        "Cultural",
+        "Workshop",
+        "Arts"
+      ],
+      "tags": [
+        "Free Stuff",
+        "PixelPerfect (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Halloween%20Design%20Challenge&dates=20261001T040000Z/20261031T040000Z&location=Sheridan%20College%20%28Trafalgar%20Campus%29%2C%201430%20Trafalgar%20Rd%2C%20Oakville%2C%20ON%20L6H%202L1%2C%20Oakville%2C%20ON",
+      "ics_url": null,
+      "description": "Hello Pixels! We’re back again with a Halloween-themed design challenge. From October 1st to October 31st @ 11:59pm, you have the opportunity to create your own design based off of our challenge prompts:\nUX/UI + Web Design - Create a movie teaser/promotional website for your favourite Halloween movie, OR create an online store website that exists inside the movie universe\nVisual Design - Re-create the movie poster for your favourite Halloween movie OR design a custom ticket/pass for a special screening event for the movie\nMotion Design - Design a 5-second GIF/short animation of your favourite character, OR animate a custom opening title sequence, OR a UI micro-animation inspired by the movie (ex. a button that turns into a spinning pumpkin)\n3D Design - Create a 3D model of an iconic movie prop (ex. the Coraline button key), OR design a mini 3D spooky room/space that’s inspired by a scene in the movie (ex. the Addams family home, or the shining hallway)\nThis will be judged based on creativity & uniqueness, theme relevance, and execution.\nBy participating, you will have the chance to win some amazing prizes like headphones, Halloween treat boxes, and/or gift cards up to $50!\nWe will have 1st, 2nd and 3rd place prizes for winners. Winners will be announced by November 13th at the latest, so check your e-mails to see if we have contacted you.\nNo experience needed! Sketches, low-fi prototypes, and beginner attempts are all welcome ;) This event is open to ALL. Prize Pickup will be handled at the Trafalgar Campus , if accommodations are needed, this can be discussed once we contact you. Upload your submission to this Google Form link: https://forms.gle/R2Ek9htjmaGkUxHK7",
+      "engage_id": "333451",
+      "organizations": [
+        "PixelPerfect (Trafalgar)"
+      ],
+      "rsvp_total": 1,
+      "month": "Oct",
+      "day": "1",
+      "time": "12:00 AM",
+      "venue": "Sheridan College (Trafalgar Campus)"
+    },
+    {
+      "title": "Pitch Critique Night",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335031",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/f2f253d4-b5ba-4b90-8129-8446aa5da43ab072e504-4dd7-4a74-a220-8c558c743e1e.png",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "4"
+      },
+      "excerpt": "Anyone is welcome to present school assignments, ideas, and artwork to a group for critique! Open to anyone presenting is not required but strongly encouraged. However, if you just want to give your i…",
+      "last_occurrence_ends_at": "2026-11-05T02:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-04",
+          "date_text": "Wednesday, November 4, 2026",
+          "time_12h": "7:00 PM",
+          "time_24h": "19:00"
+        }
+      ],
+      "address": {
+        "venue": "J102",
+        "lines": [
+          "J102"
+        ],
+        "map_url": "http://maps.google.com?q=J102"
+      },
+      "categories": [
+        "Workshop",
+        "Social"
+      ],
+      "tags": [
+        "Diversity in Animation: WIA Sheridan (Trafalgar)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Pitch%20Critique%20Night&dates=20261105T000000Z/20261105T020000Z&location=J102",
+      "ics_url": null,
+      "description": "Anyone is welcome to present school assignments, ideas, and artwork to a group for critique! Open to anyone presenting is not required but strongly encouraged. However, if you just want to give your insight that is just as important!",
+      "engage_id": "335031",
+      "organizations": [
+        "Diversity in Animation: WIA Sheridan (Trafalgar)"
+      ],
+      "rsvp_total": 0,
+      "month": "Nov",
+      "day": "4",
+      "time": "7:00 PM",
+      "venue": "J102"
+    },
+    {
+      "title": "Sheridan Datathon 2026",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335311",
+      "image_url": "https://se-images.campuslabs.ca/clink/images/dd291c35-0145-4782-a812-4aa54163d321b6ee9755-e180-444c-a16a-a956e7a57e3e.png",
+      "list_date_box": {
+        "month": "Nov",
+        "day": "7"
+      },
+      "excerpt": "The Sheridan Datathon is a 24-hour data hackathon organized by GDG on Campus Sheridan. On November 7–8, 2026, 250+ students from across the GTA will come together at Sheridan's HMC Campus to work with…",
+      "last_occurrence_ends_at": "2026-11-09T01:00:00+00:00",
+      "occurrences": [
+        {
+          "date": "2026-11-07",
+          "date_text": "Saturday, November 7, 2026",
+          "time_12h": "8:00 AM",
+          "time_24h": "08:00"
+        }
+      ],
+      "address": {
+        "venue": "Sheridan College - Hazel McCallion Campus",
+        "lines": [
+          "Sheridan College - Hazel McCallion Campus",
+          "4180 Duke of York Blvd, Mississauga, Ontario"
+        ],
+        "map_url": "http://maps.google.com?q=4180 Duke of York Blvd, Mississauga, Ontario"
+      },
+      "categories": [
+        "Academic/Educational",
+        "Meeting",
+        "Social",
+        "Workshop",
+        "Thoughtful Learning"
+      ],
+      "tags": [
+        "Free Food",
+        "Free Stuff",
+        "Google Developer Group (All Campuses)",
+        "Sheridan TechBiz Society (Trafalgar)",
+        "Women in Business and Technology (TRC)"
+      ],
+      "google_calendar_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Sheridan%20Datathon%202026&dates=20261107T130000Z/20261109T010000Z&location=Sheridan%20College%20-%20Hazel%20McCallion%20Campus%2C%204180%20Duke%20of%20York%20Blvd%2C%20Mississauga%2C%20Ontario",
+      "ics_url": null,
+      "description": "The Sheridan Datathon is a 24-hour data hackathon organized by GDG on Campus Sheridan. On November 7–8, 2026, 250+ students from across the GTA will come together at Sheridan's HMC Campus to work with real-world datasets provided by industry sponsors: turning them into insights, models, and data-driven stories.\nIt's basically a hackathon, but the challenge is centered around data instead of just building something. Teams will get actual datasets and work to find the most interesting insight or story hidden inside. They're being judged more on what they discovered than what they built. So the final submission could be a research draft, a model, a dashboard, a working prototype, or a new solution to a problem. Not just a web app.\nParticipants will:\nWork in teams of 4 across multiple tracks (AI/ML, Data Visualization, Social Impact, and a Beginner-friendly track)\nAccess datasets and problem statements provided by industry sponsors\nAttend workshops and receive mentorship from data professionals\nPresent final projects to a panel of industry judges\nCompete for prizes, recruiter access, and recognition across the GTA\nWhether it's their first hackathon or their tenth, participants will walk away with a portfolio-worthy project grounded in real data, direct exposure to recruiters actively hiring in this space, and a stronger connection to the emerging data community across the GTA.",
+      "engage_id": "335311",
+      "organizations": [
+        "Google Developer Group (All Campuses)",
+        "Sheridan TechBiz Society (Trafalgar)",
+        "Women in Business and Technology (TRC)"
+      ],
+      "rsvp_total": 4,
+      "month": "Nov",
+      "day": "7",
+      "time": "8:00 AM",
+      "venue": "Sheridan College - Hazel McCallion Campus"
+    }
+  ]
+}
