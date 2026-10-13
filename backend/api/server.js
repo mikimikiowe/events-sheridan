@@ -1,9 +1,11 @@
 import express from 'express';
-import { readFileSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 
-// Vercel runs functions from the project root (backend/), so build paths from there
-const DATA_DIR = join(process.cwd(), 'api');
+// Vercel runs functions from the project root. That's backend/ when the Vercel
+// Root Directory is set to backend, or the repo root when it isn't.
+const DATA_DIR = [join(process.cwd(), 'api'), join(process.cwd(), 'backend', 'api')]
+    .find(dir => existsSync(join(dir, 'ssuevents.json'))) || join(process.cwd(), 'api');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -80,8 +82,10 @@ function loadEvents() {
         let data;
         try {
             data = JSON.parse(readFileSync(join(DATA_DIR, source.file), 'utf-8'));
-        } catch {
-            continue; // file missing or mid-write
+        } catch (error) {
+            // File missing or mid-write. Logged so it shows up in Vercel's function logs.
+            console.error(`Could not read ${join(DATA_DIR, source.file)}: ${error.message}`);
+            continue;
         }
         for (const event of data.events || []) {
             const occurrences = event.occurrences || [];
