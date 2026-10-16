@@ -259,7 +259,6 @@ function renderCta(upcoming) {
 
 function eventCard(event, index) {
     const price = priceText(event);
-    const tags = labels(event);
     return `
         <article class="card" aria-labelledby="title-${escapeHtml(event.id)}">
             <div class="card-media">
@@ -279,7 +278,6 @@ function eventCard(event, index) {
                     ${price ? `<div><dt>Price</dt><dd>${escapeHtml(price)}</dd></div>` : ''}
                 </dl>
                 ${event.excerpt ? `<p class="excerpt">${escapeHtml(event.excerpt)}</p>` : ''}
-                ${tags.length ? `<ul class="chips" aria-label="Tags">${tags.map(t => `<li>${escapeHtml(t)}</li>`).join('')}</ul>` : ''}
                 <div class="card-actions">
                     <button class="btn btn-dark on-dark" data-details="${escapeHtml(event.id)}">Details<span class="visually-hidden"> for ${escapeHtml(event.title)}</span></button>
                     <a class="view-link" href="${escapeHtml(event.url)}" target="_blank" rel="noopener">View on ${escapeHtml(event.source_name)}<span class="visually-hidden">: ${escapeHtml(event.title)}</span>${NEW_TAB}</a>
